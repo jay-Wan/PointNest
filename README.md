@@ -8,7 +8,7 @@ This code has been tested with Python 3.5, Tensorflow 1.11, CUDA 9.0 and cuDNN 7
  
 - Clone the repository 
 ```
-git clone --depth=1 https://github.com/QingyongHu/RandLA-Net && cd RandLA-Net
+git clone --depth=1 https://github.com/jay-Wan/PointNest && cd PointNest
 ```
 - Setup python environment
 ```
@@ -19,7 +19,8 @@ sh compile_op.sh
 ```
 
 **Update 04/8/2023, pre-trained models and results are available now.** 
-You can use the pre-trained models at the file path of /pre_trained.
+You can use the pre-trained models at the link of https://pan.baidu.com/s/1GQeC5emOP3XjVkV3-h4LgA?pwd=2023 
+提取码：2023.
 Note that, please specify the model path in the main function (e.g., `main_S3DIS_ds.py`) if you want to use the pre-trained model and have a quick try of our PointNest.
 
 ### (2) S3DIS
